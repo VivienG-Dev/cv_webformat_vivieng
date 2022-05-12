@@ -1,0 +1,21 @@
+@import "./base/reset";
+
+@import "./abstracts/variables";
+
+@import "./components/preloader";
+@import "./components/underline";
+@import "./components/progress-bar";
+@import "./components/scrollbar";
+@import "./components/popup";
+@import "./components/magic-mouse";
+@import "./components/social-media";
+
+@import "./layout/img-container";
+@import "./layout/content-area";
+@import "./layout/intro";
+@import "./layout/soft-skills";
+@import "./layout/experiences";
+@import "./layout/formation";
+@import "./layout/hard-skills";
+@import "./layout/contact";
+@import "./layout/footer";

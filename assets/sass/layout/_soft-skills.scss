@@ -1,0 +1,9 @@
+.soft-skills p {
+  line-height: 1.5em;
+
+  margin-bottom: 2em;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}

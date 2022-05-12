@@ -1,0 +1,17 @@
+.formation {
+  &__container {
+    display: flex;
+    font-size: 2rem;
+    line-height: 1.4em;
+    margin-bottom: 3rem;
+  }
+
+  &__text {
+    flex-direction: column;
+
+    & h3 {
+      font-size: 2rem;
+      color: #000;
+    }
+  }
+}

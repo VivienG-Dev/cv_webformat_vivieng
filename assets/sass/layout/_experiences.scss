@@ -1,0 +1,31 @@
+.projects-list {
+  & li {
+    display: flex;
+    font-size: 2rem;
+    line-height: 1.4em;
+    margin-bottom: 3rem;
+    margin-left: 1.5rem;
+  }
+
+  &__line {
+    font-size: 2rem;
+    line-height: 3em;
+
+    width: 0.3em;
+    height: 100%;
+    margin-right: 0.5em;
+
+    color: #fff;
+    border-radius: 100px;
+    background: var(--main);
+  }
+
+  &__text {
+    flex-direction: column;
+
+    & h3 {
+      font-size: 2rem;
+      color: #000;
+    }
+  }
+}

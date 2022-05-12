@@ -1,0 +1,56 @@
+.effect {
+  display: flex;
+
+  &.egeon {
+    a {
+      transition: transform 0.2s linear 0s, border-radius 0.2s linear 0.2s;
+
+      i {
+        transition: transform 0.2s linear 0s;
+      }
+
+      &:hover {
+        transform: rotate(-90deg);
+        border-top-left-radius: 50%;
+        border-top-right-radius: 50%;
+        border-bottom-left-radius: 50%;
+
+        i {
+          transform: rotate(90deg);
+        }
+      }
+    }
+  }
+
+  a {
+    text-decoration: none !important;
+    color: var(--text-light);
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-right: 20px;
+    font-size: 2.5rem;
+    overflow: hidden;
+    position: relative;
+
+    i {
+      position: relative;
+      z-index: 3;
+    }
+
+    &.gh {
+      background-color: var(--github);
+    }
+
+    &.tw {
+      background-color: var(--twitter);
+    }
+
+    &.in {
+      background-color: var(--linkedin);
+    }
+  }
+}
